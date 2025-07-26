@@ -1,0 +1,41 @@
+
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 400px;
+  height: 445px;
+  margin: auto;
+  position: relative;
+}
+.contact > form > input[type='email'],
+.contact > form > input[type='text'] {
+  padding: 10px 24px 10px 24px;
+  color: red;
+  outline: none;
+  border: 0;
+  border-radius: 8px;
+}
+
+.contact > form > textarea {
+  outline: none;
+  border: 0;
+  padding: 10px 10px 160px 10px;
+  white-space: pre-warp;
+  word-wrap: break-word;
+}
+
+.contact > form > button {
+  width: 89px;
+  padding: 8px 24px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: #FDC435;
+  border: 0;
+  border-radius: 8px;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
